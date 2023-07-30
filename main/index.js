@@ -56,7 +56,7 @@ function promptUser() {
         type: "input",
         message:
           "Logo Shapes Colour (You have the option to type colour name OR a hexadecimal number)",
-        name: "shapeBackgroundColour",
+        name: "shapeBackgroundColor",
       },
     ])
     .then((answers) => {
